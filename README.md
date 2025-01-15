@@ -1,7 +1,7 @@
 <h1 align="center"><b>Hi, I'm Araxel19 👨‍💻</b> <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
 
 <!-- Imagen a la derecha -->
-<img align="right" width=300px alt="Developer" src="https://media.giphy.com/media/l3q2K5juRb8rLfzZC/giphy.gif" />
+<img align="right" width=300px alt="Developer" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGMwM2NwcWp1cXN0dTR5c2xsdmN2NDY1Y3V2eTNnbHI1cWFtajhqcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RbDKaczqWovIugyJmW/giphy.gif" />
 
 <!-- Descripción -->
 <img src="https://media.giphy.com/media/ObNTw8Uzwy6KQ/giphy.gif" width="30px">&nbsp;***About me***
