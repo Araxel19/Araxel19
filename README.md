@@ -11,7 +11,7 @@ Soy un apasionado del **desarrollo de software** con experiencia en **desarrollo
 - 👯 Busco colaborar en **proyectos de freelancing**.
 - ✔ Pregúntame sobre **desarrollo web**, **estructuras de datos** o **configuración de redes**.
 - Fuera de la tecnología, 💜 disfruto **jugando videojuegos**, 🎮 **escuchando música** y 📖 **leyendo sobre tecnología**.
-- 📫 Puedes contactarme en: [OGJohan878@gmail.com](mailto:OGJohan878@gmail.com)
+- 📫 Puedes contactarme en: [johanblancoac@gmail.com](mailto:johanblancoac@gmail.com)
 
 ## Mis Habilidades: 
 
