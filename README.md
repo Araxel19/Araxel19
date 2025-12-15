@@ -38,28 +38,35 @@ Soy **desarrollador de software en formación**, con enfoque en **desarrollo web
   <img src="https://img.shields.io/badge/n8n-FF6560?style=for-the-badge&logo=n8n&logoColor=white">
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">
-  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white">
 </span>
 
 ---
 
 ## 📂 Proyectos Destacados
 
-### 📅 **Uniplanner**
+### 📅 **[Uniplanner](https://github.com/Araxel19/UniPlanner)**
 > *App móvil en Flutter para organización estudiantil.*
 Incluye calendario, recordatorios, gestión financiera y cálculo de notas. Implementación de persistencia de datos local usando **SQLite** y **SharedPreferences**.
+<br>
+[![](https://img.shields.io/badge/Ver_Código-GitHub-black?style=flat-square&logo=github)](https://github.com/Araxel19/UniPlanner)
 
-### 🎮 **BlackReview**
+### 🎮 **[BlackReview](https://github.com/Araxel19/BlackReview)**
 > *Plataforma web de reseñas de videojuegos.*
 Integra APIs externas (**RAWG, OpenCritic, Twitch**) para traer datos en tiempo real. Cuenta con un sistema CRUD completo y un fuerte enfoque en la **experiencia de usuario (UX)**.
+<br>
+[![](https://img.shields.io/badge/Ver_Código-GitHub-black?style=flat-square&logo=github)](https://github.com/Araxel19/BlackReview)
 
 ### ⚙️ **Automatización OCR con n8n**
 > *Flujo automatizado de procesamiento de datos.*
 Sistema para lectura de documentos mediante **OCR**, usando webhooks para la recepción, validación de datos y despliegue contenerizado en **Docker**.
+<br>
+*(Repositorio privado por motivos académicos)*
 
 ### 🏫 **Gestión de Trabajos de Grado (JSP)**
 > *Sistema web administrativo.*
 Desarrollado con **JSP, JSTL** y base de datos relacional para la administración y control de formatos y usuarios académicos.
+<br>
+*(Repositorio privado por motivos académicos)*
 
 ### 🌐 **Redes & Sistemas**
 > *Infraestructura y conectividad.*
