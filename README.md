@@ -48,13 +48,13 @@ Soy **desarrollador de software en formación**, con enfoque en **desarrollo web
 > *App móvil en Flutter para organización estudiantil.*
 Incluye calendario, recordatorios, gestión financiera y cálculo de notas. Implementación de persistencia de datos local usando **SQLite** y **SharedPreferences**.
 <br>
-[(https://img.shields.io/badge/Ver_Código-GitHub-black?style=flat-square&logo=github)](https://github.com/Araxel19/UniPlanner)
+https://github.com/Araxel19/UniPlanner
 
 ### 🎮 **[BlackReview](https://github.com/Araxel19/BlackReview)**
 > *Plataforma web de reseñas de videojuegos.*
 Integra APIs externas (**RAWG, OpenCritic, Twitch**) para traer datos en tiempo real. Cuenta con un sistema CRUD completo y un fuerte enfoque en la **experiencia de usuario (UX)**.
 <br>
-[![](https://img.shields.io/badge/Ver_Código-GitHub-black?style=flat-square&logo=github)](https://github.com/Araxel19/BlackReview)
+https://github.com/Araxel19/BlackReview
 
 ### ⚙️ **Automatización OCR con n8n**
 > *Flujo automatizado de procesamiento de datos.*
