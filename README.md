@@ -1,41 +1,69 @@
 <h1 align="center"><b>Hi, I'm Araxel19 👨‍💻</b> <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
 
-<!-- Imagen a la derecha -->
-<img align="right" width=300px alt="Developer" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGMwM2NwcWp1cXN0dTR5c2xsdmN2NDY1Y3V2eTNnbHI1cWFtajhqcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RbDKaczqWovIugyJmW/giphy.gif" />
+<img align="right" width="300px" alt="Developer" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGMwM2NwcWp1cXN0dTR5c2xsdmN2NDY1Y3V2eTNnbHI1cWFtajhqcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RbDKaczqWovIugyJmW/giphy.gif" />
 
-<!-- Descripción -->
-<img src="https://media.giphy.com/media/ObNTw8Uzwy6KQ/giphy.gif" width="30px">&nbsp;***About me***
+### <img src="https://media.giphy.com/media/ObNTw8Uzwy6KQ/giphy.gif" width="30px">&nbsp; Sobre mí
 
-Soy un apasionado del **desarrollo de software** con experiencia en **desarrollo web**, **estructuras de datos en Java**, y **proyectos de redes**. Me encanta aprender y construir proyectos innovadores que mezclen creatividad y funcionalidad.
-- 🌱 Actualmente aprendiendo sobre **bases de datos SQL** y **redes**.
-- 👯 Busco colaborar en **proyectos de freelancing**.
-- ✔ Pregúntame sobre **desarrollo web**, **estructuras de datos** o **configuración de redes**.
-- Fuera de la tecnología, 💜 disfruto **jugando videojuegos**, 🎮 **escuchando música** y 📖 **leyendo sobre tecnología**.
-- 📫 Puedes contactarme en: [johanblancoac@gmail.com](mailto:johanblancoac@gmail.com)
+Soy **desarrollador de software en formación**, con enfoque en **desarrollo web, aplicaciones móviles** y soluciones orientadas a la automatización. Este año consolidé bases sólidas en frontend, backend y despliegue, siempre con una mentalidad práctica y orientada a producto.
 
-## Mis Habilidades: 
+- 🌱 Actualmente profundizando en **Flutter**, arquitecturas backend y **automatización de flujos**.
+- 🧠 Interés fuerte en **UX**, diseño de experiencias interactivas y apps con sentido humano.
+- 👯 Abierto a colaborar en proyectos académicos, personales o **freelancing**.
+- ✔ Puedo ayudarte con **desarrollo web, Flutter, bases de datos, redes y automatización**.
+- ⚡ **Fuera del código:** 🎮 videojuegos, 📺 análisis psicológico en medios, 📖 lectura tech.
+- 📫 **Contacto:** [johanblancoac@gmail.com](mailto:johanblancoac@gmail.com)
 
-<h4> Languages </h4>
-<span> 
+---
+
+### 🚀 Habilidades Técnicas
+
+<h4>Mobile & Web Development</h4>
+<span>
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white">
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white">
   <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+</span>
+
+<h4>Data & Backend</h4>
+<span>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white">
   <img src="https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=postgresql&logoColor=white">
 </span>
 
-<h4> Other Tools and Technologies </h4>
+<h4>Tools, DevOps & Networks</h4>
 <span>
-  <img src="https://img.shields.io/badge/NetBeans-1B6AC6?style=for-the-badge&logo=apache-netbeans-ide&logoColor=white">
-  <img src="https://img.shields.io/badge/XAMPP-FB7A24?style=for-the-badge&logo=xampp&logoColor=white">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
+  <img src="https://img.shields.io/badge/n8n-FF6560?style=for-the-badge&logo=n8n&logoColor=white">
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">
+  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white">
 </span>
+
+---
 
 ## 📂 Proyectos Destacados
 
-- **BlackReview:** Sitio web para reseñas de videojuegos con integración de APIs (RAWG, OpenCritic, Twitch) y sistema CRUD.
-- **Gestión de Productos:** Aplicación PHP con login, control de permisos y APIs REST para compras y ventas.
-- **Redes:** Configuración de protocolos de enrutamiento en Cisco Packet Tracer.
+### 📅 **Uniplanner**
+> *App móvil en Flutter para organización estudiantil.*
+Incluye calendario, recordatorios, gestión financiera y cálculo de notas. Implementación de persistencia de datos local usando **SQLite** y **SharedPreferences**.
+
+### 🎮 **BlackReview**
+> *Plataforma web de reseñas de videojuegos.*
+Integra APIs externas (**RAWG, OpenCritic, Twitch**) para traer datos en tiempo real. Cuenta con un sistema CRUD completo y un fuerte enfoque en la **experiencia de usuario (UX)**.
+
+### ⚙️ **Automatización OCR con n8n**
+> *Flujo automatizado de procesamiento de datos.*
+Sistema para lectura de documentos mediante **OCR**, usando webhooks para la recepción, validación de datos y despliegue contenerizado en **Docker**.
+
+### 🏫 **Gestión de Trabajos de Grado (JSP)**
+> *Sistema web administrativo.*
+Desarrollado con **JSP, JSTL** y base de datos relacional para la administración y control de formatos y usuarios académicos.
+
+### 🌐 **Redes & Sistemas**
+> *Infraestructura y conectividad.*
+Configuración de redes empresariales simuladas y reales: **DHCP, DNS, Proxy** y enrutamiento avanzado utilizando **Cisco Packet Tracer** y **Ubuntu Server**.
 
 ---
 
