@@ -2,9 +2,7 @@
 
   <!-- Header Title & Monogram Badge -->
   <h1>
-    <img src="https://raw.githubusercontent.com/particle-iot/particle-icons/main/src/png/purple/cloud.png" width="30px" alt="icon" />
-    <b>Araxel19</b>
-    <img src="https://raw.githubusercontent.com/particle-iot/particle-icons/main/src/png/purple/cloud.png" width="30px" alt="icon" />
+    🔮 <b>Araxel19</b> 🔮
   </h1>
 
   <p align="center">
