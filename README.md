@@ -26,11 +26,12 @@
 
 Soy **desarrollador de software** en Colombia 🇨🇴. Construyo **apps móviles en Flutter**, **plataformas web**, **sistemas de IA con RAG** y **automatizaciones backend**. Me importan la arquitectura sólida, las interfaces cuidadas y el código limpio pensado como producto.
 
-- 🔭 Ahora trabajo en **AvoNitor**: IoT + ML para el riego de cultivos de aguacate en el **CIAI · UTS**.
+- 🧠 Desarrollo **CIAI Hub** y administro los **servidores GPU del CIAI · UTS**.
+- 🔭 Ahora trabajo en **AvoNitor**: IoT + ML para el riego de cultivos de aguacate.
 - 🎓 Mantengo **UniPlanner**, una app para que universitarios organicen su vida académica.
 - 🧪 Estoy explorando el **análisis forense de repositorios Git** con *RepoArchaeology*.
 - 🤝 Estoy disponible para **freelance**, software a medida y proyectos de impacto.
-- 🎮 En mi tiempo libre: videojuegos (sí, Stardew Valley 🌾), anime y aprender tecnología nueva.
+- 🎮 En mi tiempo libre: videojuegos, anime y aprender tecnología nueva.
 
 </td>
 <td width="45%" valign="top">
@@ -42,12 +43,13 @@ class Araxel19 {
   final location = 'Colombia 🇨🇴';
 
   final mobile   = ['Flutter', 'Dart', 'Expo'];
-  final web      = ['React', 'Vue', 'Vite'];
+  final web      = ['React', 'Vue', 'Tauri'];
   final backend  = ['Node.js', 'FastAPI', 'Java'];
   final data     = ['PostgreSQL', 'pgvector',
                     'MongoDB', 'SQLite'];
   final ai       = ['RAG', 'ML', 'OCR'];
-  final infra    = ['Docker', 'Linux', 'n8n'];
+  final infra    = ['Linux', 'Docker', 'Cloudflare',
+                    'GPU clusters'];
 
   bool get openToWork => true;
 }
@@ -85,22 +87,43 @@ class Araxel19 {
 <tr>
 <td width="50%" valign="top">
 
-### 🌟 [Stardew Companion](https://github.com/Araxel19/Stardew-Companion)
-App multiplataforma para alcanzar la **Perfección 100 %** en Stardew Valley. Lee las partidas (`.xml`), calcula el ROI de los cultivos, lleva las finanzas de la granja y soporta mods (SVE, Ridgeside).
+### 🧠 [CIAI Hub](https://ciaiuts.com)
+Plataforma del **Centro de Innovación e Inteligencia Artificial (CIAI · UTS)**. Tiene un sitio público con la vitrina de proyectos y un dashboard privado con kanban tipo Trello, seguimiento semanal, propuestas evaluadas con rúbrica, reuniones con galería, archivos por proyecto y analíticas propias sin cookies.
 
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
+![Google Drive](https://img.shields.io/badge/Google_Drive-4285F4?style=flat-square&logo=googledrive&logoColor=white)
+![Live](https://img.shields.io/badge/●_En_producción-2EA043?style=flat-square)
 
 </td>
 <td width="50%" valign="top">
 
-### 🏛️ [RepoArchaeology](https://github.com/Araxel19/RepoArchaeology)
-Herramienta de terminal para la **arqueología forense de repositorios Git**. Detecta archivos frágiles, acoplamiento fantasma y deuda oculta, y explica *por qué* existe cada decisión.
+### 🏫 [UTS Nexus Académico](https://github.com/JuanDavid-dev-lang/UTS_Nexus_Academico)
+Plataforma académica unificada para las UTS: **un backend, una base de datos y tres interfaces** (web, escritorio y móvil) sincronizadas en tiempo real. Gestiona estudiantes, docentes, calificaciones, asistencia y horarios, con analítica de riesgo académico.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Rich TUI](https://img.shields.io/badge/Rich_CLI_/_TUI-10B981?style=flat-square&logo=gnometerminal&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Tauri](https://img.shields.io/badge/Tauri-24C8DB?style=flat-square&logo=tauri&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socketdotio&logoColor=white)
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+### 🖥️ Infraestructura de servidores del CIAI
+Administro el **clúster de 2 nodos GPU** del CIAI (2× NVIDIA RTX 2000 Ada · 32 GB VRAM · 64 GB RAM). Funciona en modo **activo-activo**, con un balanceador hecho a medida y *failover* automático, y sirve inferencia de LLM, embeddings RAG y síntesis de voz (TTS). Cada proyecto tiene su despliegue automático desde `main` con *rollback*, usuarios y rutas aisladas, deploy keys por nodo y túneles de **Cloudflare**. Todo se monitorea desde un panel propio en Cockpit (`servers.ciaiuts.com`). Ahí corren CIAI Hub, UniPlanner, RadioUTS y otros proyectos.
+
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![systemd](https://img.shields.io/badge/systemd-30D475?style=flat-square&logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![NVIDIA](https://img.shields.io/badge/NVIDIA_CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare_Tunnels-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+![Cockpit](https://img.shields.io/badge/Cockpit-0066CC?style=flat-square&logo=redhat&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 
 </td>
 </tr>
@@ -131,17 +154,6 @@ Prototipo **IoT + Machine Learning** que monitorea cultivos de aguacate, recomie
 <tr>
 <td width="50%" valign="top">
 
-### 📦 [DigiStock](https://github.com/Araxel19/DigiStock)
-Digitaliza inventarios con **OCR**: procesa planillas físicas y extrae los productos automáticamente. Usa una arquitectura de tres capas, automatización con n8n y despliegue en Docker. Tiene una [app móvil](https://github.com/Araxel19/DigiStockMobile) en Expo.
-
-![Vue](https://img.shields.io/badge/Vue-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-
-</td>
-<td width="50%" valign="top">
-
 ### 📻 RadioUTS
 Plataforma de radio en vivo con una interfaz *glassmorphism*, visualizador de audio en tiempo real y un **asistente de IA con RAG** sobre Supabase `pgvector`. Guarda la telemetría en MongoDB Atlas.
 
@@ -149,6 +161,16 @@ Plataforma de radio en vivo con una interfaz *glassmorphism*, visualizador de au
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase_pgvector-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+
+</td>
+<td width="50%" valign="top">
+
+### 🏛️ [RepoArchaeology](https://github.com/Araxel19/RepoArchaeology)
+Herramienta de terminal para la **arqueología forense de repositorios Git**. Detecta archivos frágiles, acoplamiento fantasma y deuda oculta, y explica *por qué* existe cada decisión.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Rich TUI](https://img.shields.io/badge/Rich_CLI_/_TUI-10B981?style=flat-square&logo=gnometerminal&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 </td>
 </tr>
@@ -161,7 +183,6 @@ Plataforma de radio en vivo con una interfaz *glassmorphism*, visualizador de au
 | Proyecto | Descripción | Stack |
 |:--|:--|:--|
 | 💖 [Encantario: Capítulo Uno](https://github.com/Araxel19/Encantario-Capitulo-Uno) | App de 30 días con retos, trivias y minijuegos para parejas, con fondo cósmico animado | Flutter |
-| 🎮 [BlackReview](https://github.com/Araxel19/BlackReview) | Plataforma de reseñas de videojuegos que integra las APIs de RAWG, OpenCritic y Twitch | Web · APIs |
 | 🤖 RAG de documentos institucionales | Búsqueda semántica sobre reglamentos, calendario académico y mallas curriculares | Python · pgvector |
 | ⚙️ [n8n-render](https://github.com/Araxel19/n8n-render) | Plantilla mínima para desplegar n8n en Render con Docker | Docker · n8n |
 | 🏫 Gestión de Trabajos de Grado | Sistema web institucional para el seguimiento de proyectos de grado | Java · JSP |
@@ -174,7 +195,7 @@ Plataforma de radio en vivo con una interfaz *glassmorphism*, visualizador de au
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Araxel19&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D0B14&title_color=C77DFF&icon_color=9D4EDD&text_color=E0E0E0&ring_color=7B2CBF&rank_icon=github&custom_title=Araxel19%20en%20GitHub" height="170" alt="GitHub Stats" />
+<img src="https://github-readme-stats.vercel.app/api?username=Araxel19&show_icons=true&count_private=true&hide_border=true&bg_color=0D0B14&title_color=C77DFF&icon_color=9D4EDD&text_color=E0E0E0&ring_color=7B2CBF&rank_icon=github&custom_title=Araxel19%20en%20GitHub" height="170" alt="GitHub Stats" />
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Araxel19&layout=compact&langs_count=8&hide=html,css,cmake,c%2B%2B&hide_border=true&bg_color=0D0B14&title_color=C77DFF&text_color=E0E0E0&custom_title=Lenguajes%20m%C3%A1s%20usados" height="170" alt="Top Languages" />
 
 <br/><br/>
